@@ -1,24 +1,22 @@
-import logo from './logo.png';
 import './App.css';
+import background from './images/background.jpg';
+import * as React from 'react';
+import { Box, Container, ThemeProvider } from '@mui/material';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+const theme = {}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Yuriki no Kizuna - Site em construção
-        </p>
-        <a
-          className="App-link"
-          href="https://instagram.com/yuriki.kizuna"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          instagram
-        </a>
-      </header>
-    </div>
+    <ThemeProvider sx={{position: "relative"}} theme={theme}>
+      <Box component="img" sx={{ width: "1", maxHeight: "100vh", objectFit: "cover" }} src={background}/>
+      <Container sx={{ bgcolor:"tomato", height: "100vh" }}>
+        YURIKI
+      </Container>
+    </ThemeProvider>
   );
 }
 
