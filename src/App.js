@@ -1,7 +1,7 @@
 import background from './images/background.jpeg';
 import logoCenter from './images/logo-center.png';
 import * as React from 'react';
-import { Box, Container, ThemeProvider } from '@mui/material';
+import { Box, Container, createTheme, ThemeProvider } from '@mui/material';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -13,7 +13,11 @@ import Shishimai from './pages/shishimai';
 import Galeria from './pages/galeria'
 import Feedbacks from './pages/feedbacks'
 
-const theme = {}
+const theme = createTheme({
+  typography: {
+    fontFamily: 'Roboto',
+  }
+})
 
 function App() {
   return (
