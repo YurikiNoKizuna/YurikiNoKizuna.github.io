@@ -12,8 +12,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -34,7 +32,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar style={{ backgroundColor: 'rgba(0,0,0,0)', boxShadow:'none'}} position="static">
+    <AppBar style={{ backgroundColor: 'rgba(0,0,0,0)', boxShadow:'none'}} position="absolute">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -66,11 +64,18 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              <MenuItem key={'Sobre'} onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">{'Sobre'}</Typography>
+              </MenuItem>
+              <MenuItem key={'Galeria'} onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">{'Galeria'}</Typography>
+              </MenuItem>
+              <MenuItem key={'Contato'} onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">{'Contato'}</Typography>
+              </MenuItem>
+              <MenuItem key={'FAQ'} onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">{'FAQ'}</Typography>
+              </MenuItem>
             </Menu>
           </Box>
           

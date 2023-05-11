@@ -24,16 +24,21 @@ function App() {
   return (
     <div style={{ backgroundColor:'black', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', width:'100%', height:'100vh' }}>
       <ThemeProvider theme={theme}>
-      <Demo />
+      <Demo/>
         <Box
-              component="img"
-              sx={{
-                display: 'flex', mt: '24vh', mb: '55vh', mx: 'auto', maxWidth: '100%'
-              }}
-              src={logoCenter}
-            />
+        sx={{
+          display: 'flex', my:'auto', height:'100vh', justifyContent:'center', alignItems:'center'
+        }}>
+          <Box
+                component="img"
+                sx={{
+                  display: 'flex', mx: 'auto', maxWidth: '100%'
+                }}
+                src={logoCenter}
+              />
+        </Box>
 
-        <Container sx={{ position:'absolute', top:'100vh'}} style={{ justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
+        <Container sx={{ justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
         <Vertical/>
         <Box sx={{justifyContent:'center', display: 'flex'}}>
         <Typography color='yellow'>
@@ -41,7 +46,7 @@ function App() {
         </Typography>
         </Box>
         <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography variant='h4'>
+        <Typography sx={{my:'3vh'}} variant='h4'>
         Sobre
         </Typography>
         </Box>
