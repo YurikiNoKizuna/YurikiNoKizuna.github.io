@@ -1,5 +1,6 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
+import { Link } from 'react-scroll'
 import logoWhite from './images/logo-white.png';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -72,12 +73,16 @@ function ResponsiveAppBar() {
           </Box>
           
           <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <Button key={'Sobre'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-              {'Sobre'}
-            </Button>
-            <Button key={'Galeria'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-              {'Galeria'}
-            </Button>
+            <Link to="sobre" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+              <Button key={'Sobre'} sx={{ my: 2, color: 'white', display: 'block' }}>
+                {'Sobre'}
+              </Button>
+            </Link>
+            <Link to="galeria" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+              <Button key={'Galeria'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                {'Galeria'}
+              </Button>
+            </Link>
             <Box
               component="img"
               sx={{
@@ -86,12 +91,16 @@ function ResponsiveAppBar() {
               }}
               src={logoWhite}
             />
-            <Button key={'Contato'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-              {'Contato'}
-            </Button>
-            <Button key={'FAQ'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-              {'FAQ'}
-            </Button>
+            <Link to="contato" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+              <Button key={'Contato'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                {'Contato'}
+              </Button>
+            </Link>
+            <Link to="faq" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+              <Button key={'FAQ'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+                {'FAQ'}
+              </Button>
+            </Link>
           </Box>
         </Toolbar>
       </Container>
