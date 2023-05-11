@@ -1,5 +1,4 @@
-import './App.css';
-import background from './images/background.jpg';
+import background from './images/background.jpeg';
 import logoCenter from './images/logo-center.png';
 import * as React from 'react';
 import { Box, Typography, Container, ThemeProvider } from '@mui/material';
