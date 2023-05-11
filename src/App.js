@@ -7,7 +7,9 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Demo from './appbar';
-import Vertical from './vertical';
+import Sobre from './pages/sobre';
+import Eisa from './pages/eisa';
+import Shishimai from './pages/shishimai';
 
 const theme = {}
 
@@ -30,18 +32,9 @@ function App() {
         </Box>
 
         <Container sx={{ justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
-        <Vertical/>
-        <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography color='yellow'>
-        友力の絆エイサー太鼓
-        </Typography>
-        </Box>
-        <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography sx={{my:'3vh'}} variant='h4'>
-        Sobre
-        </Typography>
-        </Box>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis luctus aliquet. Nunc rutrum augue vitae consectetur maximus. Cras rutrum quam nisi, ut dictum leo accumsan et. In hac habitasse platea dictumst. Nulla aliquam, augue et elementum ultrices, massa ligula aliquam sem, quis imperdiet mauris metus et nulla.
+        <Sobre />
+        <Shishimai />
+        <Eisa />
         </Container>
         <div style={{height:'100vh'}}></div>
       </ThemeProvider>
