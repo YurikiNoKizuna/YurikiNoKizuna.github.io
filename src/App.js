@@ -1,7 +1,7 @@
 import background from './images/background.jpeg';
 import logoCenter from './images/logo-center.png';
 import * as React from 'react';
-import { Box, Typography, Container, ThemeProvider } from '@mui/material';
+import { Box, Container, ThemeProvider } from '@mui/material';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';

@@ -4,7 +4,6 @@ import * as React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import logoCenter from './../images/logo-center.png';
 import a0 from './../images/galeria/0.jpg';
 import a1 from './../images/galeria/a1.JPG';
 import a2 from './../images/galeria/a2.JPG';
@@ -20,7 +19,6 @@ import a11 from './../images/galeria/a11.JPG';
 
 
 function page() {
-  const images = ['a0',1,2,3,4,5,6,7,8,9]
 
   return (
     <Box id='galeria' sx={{minHeight:'60vh'}}>
