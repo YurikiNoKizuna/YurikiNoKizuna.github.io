@@ -8,8 +8,25 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 function importAll(r) {
   return r.keys().map(r);
 }
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
 
-const images = importAll(require.context('./../images/galeria/', false, /\.(png|jpe?g|svg|JPG)$/));
+  // While there remain elements to shuffle.
+  while (currentIndex !== 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
+const images = shuffle(importAll(require.context('./../images/galeria/', false, /\.(png|jpe?g|svg|JPG)$/)));
 
 function page() {
   return (
