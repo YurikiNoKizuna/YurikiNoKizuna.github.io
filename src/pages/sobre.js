@@ -20,7 +20,20 @@ function page() {
         <Typography sx={{my:'3vh'}} variant='h3'>
         Quem somos?
         </Typography>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis luctus aliquet. Nunc rutrum augue vitae consectetur maximus. Cras rutrum quam nisi, ut dictum leo accumsan et. In hac habitasse platea dictumst. Nulla aliquam, augue et elementum ultrices, massa ligula aliquam sem, quis imperdiet mauris metus et nulla.
+        O grupo Yuriki no Kizuna Eisá Daiko (Grupo de Eisá Taiko
+Laços de Amizade) foi fundado por Toshiyuki Yamauchi
+em 2022, na cidade de São Paulo e conta com 40
+membros.
+O grupo surgiu através da união entre jovens
+descendentes e simpatizantes da comunidade
+okinawana com o intuito de manter e difundir a cultura e
+valores de seus antepassados.
+Apesar de sua recente fundação, o grupo se apresentou
+com grandes perfomances em diversos eventos da
+comunidade nikkey na cidade de São Paulo, no interior, e
+em outros estados, consolidando sua existência atráves
+de grandes apresentações dos tambores e da dança do
+leão conhecida como shishimai.
         </Grid>
         <Grid item sx={{ display:'flex', alignItems:'center' }} xs={12} md={6}>
             <Box

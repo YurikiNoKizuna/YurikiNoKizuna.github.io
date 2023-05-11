@@ -40,7 +40,7 @@ function App() {
         <Galeria />
         <Feedbacks />
         </Container>
-        <div style={{height:'100vh'}}></div>
+        <div style={{height:'20vh'}}></div>
       </ThemeProvider>
     </div>
   );

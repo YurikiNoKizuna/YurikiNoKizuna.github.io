@@ -18,7 +18,7 @@ function page() {
         <Typography id="sobre" sx={{my:'3vh'}} variant='h3'>
         O que é Eisá?
         </Typography>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis luctus aliquet. Nunc rutrum augue vitae consectetur maximus. Cras rutrum quam nisi, ut dictum leo accumsan et. In hac habitasse platea dictumst. Nulla aliquam, augue et elementum ultrices, massa ligula aliquam sem, quis imperdiet mauris metus et nulla.
+        O Eisá é uma dança popular onde os dançarinos tocam seus tambores ao som de músicas populares para homenagear seus antepassados no período do Obon (finados).
         </Grid>
         <Grid item sx={{ display:'flex', alignItems:'center' }} xs={12} md={6}>
             <Box
