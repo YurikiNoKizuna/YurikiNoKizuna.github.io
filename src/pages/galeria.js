@@ -40,7 +40,14 @@ function page() {
     <Grid sx={{my:'3vh'}} container spacing={2}>
         
 
-    <OwlCarousel items={2} dots={false} autoplay autoplayTimeout={3000} className='owl-theme' loop margin={10} nav>
+    <OwlCarousel responsive={{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+    }} dots={false} autoplay autoplayTimeout={3000} className='owl-theme' loop margin={10} nav>
         {images.map((image) => (
               <div class='item'>
                 <Box component="img" src={image} />
