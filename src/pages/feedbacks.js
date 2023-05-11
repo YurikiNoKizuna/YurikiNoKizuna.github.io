@@ -1,8 +1,8 @@
-import { Grid, Box, Typography } from '@mui/material';
+import { Grid, Box, Typography, Divider } from '@mui/material';
 import Vertical from './../vertical'
 import * as React from 'react';
-import f1 from './../images/f1.png';
-import f2 from './../images/f2.png';
+import f1 from './../images/f1.jpg';
+import f2 from './../images/f2.jpg';
 import quote from './../images/quote.png';
 
 function page() {
@@ -40,6 +40,8 @@ function page() {
         </Typography>
         </Grid>
     </Grid>
+
+    <Divider sx={{ mt:'6vh', bgcolor:'grey', display: {md: 'none'} }} />
 
     <Grid sx={{my:'3vh'}} container spacing={2}>
     <Grid sx={{textAlign:'right'}} item xs={12} md={6}>
