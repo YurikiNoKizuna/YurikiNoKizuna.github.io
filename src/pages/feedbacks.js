@@ -30,7 +30,7 @@ function page() {
                 width:'5vh', position:'absolute', zIndex: '-1', opacity: '0.4'
               }} src={quote} />
         <Typography sx={{ mx:'2xh', mb:'3vh', fontWeight:'100'}} variant='h6'>
-        “A participação do grupo Yuriki no Kizuna Eisá Daiko foi extremamente profissional. Nós, da Organização do Festival da Cultura Japonesa de Salvador, só temos a agradecer aos integrantes do grupo pela postura exemplar adotada em cada um dos momentos que envolveu a participação. Sua apresentação abrilhantou o Festival, agradando todo público presente."''
+        “A participação do grupo Yuriki no Kizuna Eisá Daiko foi extremamente profissional. Nós, da Organização do Festival da Cultura Japonesa de Salvador, só temos a agradecer aos integrantes do grupo pela postura exemplar adotada em cada um dos momentos que envolveu a participação. Sua apresentação abrilhantou o Festival, agradando todo público presente."
         </Typography>
         <Typography sx={{ mx:'2xh', mb:'1vh'}} variant='h6'>
         Isa Toyota
