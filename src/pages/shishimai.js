@@ -29,7 +29,7 @@ function page() {
         <Typography id="sobre" sx={{my:'3vh'}} variant='h3'>
         O que é Shishimai?
         </Typography>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis luctus aliquet. Nunc rutrum augue vitae consectetur maximus. Cras rutrum quam nisi, ut dictum leo accumsan et. In hac habitasse platea dictumst. Nulla aliquam, augue et elementum ultrices, massa ligula aliquam sem, quis imperdiet mauris metus et nulla.
+        A dança do leão, conhecida como Shishimai é a representação do leão mitológico de Okinawa por meio da dança e acredita-se que ao morder a cabeça de alguém, afasta o mal e traz proteção.
         </Grid>
     </Grid>
     </Box>
