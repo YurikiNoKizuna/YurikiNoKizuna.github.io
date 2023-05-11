@@ -1,9 +1,8 @@
 import './App.css';
 import background from './images/background.jpg';
-import logoWhite from './images/logo-white.png';
 import logoCenter from './images/logo-center.png';
 import * as React from 'react';
-import { Grid, Divider, Box, AppBar, Typography, Container, ThemeProvider } from '@mui/material';
+import { Box, Typography, Container, ThemeProvider } from '@mui/material';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -14,13 +13,6 @@ import Vertical from './vertical';
 const theme = {}
 
 function App() {
-  const content = (
-    <div>
-      {`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id dignissim justo.
-   Nulla ut facilisis ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-   Sed malesuada lobortis pretium.`}
-    </div>
-  );
   return (
     <div style={{ backgroundColor:'black', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', width:'100%', height:'100vh' }}>
       <ThemeProvider theme={theme}>
