@@ -57,12 +57,16 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
+              <Link to="sobre" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <MenuItem key={'Sobre'} onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">{'Sobre'}</Typography>
               </MenuItem>
+              </Link>
+              <Link to="galeria" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <MenuItem key={'Galeria'} onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">{'Galeria'}</Typography>
               </MenuItem>
+              </Link>
               <MenuItem key={'Contato'} onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">{'Contato'}</Typography>
               </MenuItem>
@@ -73,12 +77,12 @@ function ResponsiveAppBar() {
           </Box>
           
           <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <Link to="sobre" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+            <Link to="sobre" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <Button key={'Sobre'} sx={{ my: 2, color: 'white', display: 'block' }}>
                 {'Sobre'}
               </Button>
             </Link>
-            <Link to="galeria" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+            <Link to="galeria" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <Button key={'Galeria'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
                 {'Galeria'}
               </Button>
@@ -91,12 +95,12 @@ function ResponsiveAppBar() {
               }}
               src={logoWhite}
             />
-            <Link to="contato" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+            <Link to="contato" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <Button key={'Contato'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
                 {'Contato'}
               </Button>
             </Link>
-            <Link to="faq" smooth={true} offset={-130} duration={500} onClick={handleCloseNavMenu}>
+            <Link to="faq" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <Button key={'FAQ'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
                 {'FAQ'}
               </Button>
