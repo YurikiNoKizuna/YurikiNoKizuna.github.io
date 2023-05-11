@@ -13,8 +13,6 @@ function page() {
         O que é Eisá?
         </Typography>
         </Box>
-        <Box sx={{justifyContent:'center', display: 'flex'}}>
-        </Box>
     <Grid sx={{my:'3vh'}} container spacing={2}>
         <Grid item xs={12} md={6}>
         <Typography id="sobre" sx={{my:'3vh'}} variant='h3'>

@@ -10,6 +10,8 @@ import Demo from './appbar';
 import Sobre from './pages/sobre';
 import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
+import Galeria from './pages/galeria'
+import Feedbacks from './pages/feedbacks'
 
 const theme = {}
 
@@ -35,8 +37,10 @@ function App() {
         <Sobre />
         <Shishimai />
         <Eisa />
+        <Galeria />
+        <Feedbacks />
         </Container>
-        <div style={{height:'100vh'}}></div>
+        <div style={{height:'100vh', color: 'white'}}></div>
       </ThemeProvider>
     </div>
   );

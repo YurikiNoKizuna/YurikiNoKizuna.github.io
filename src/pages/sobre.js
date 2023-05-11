@@ -6,7 +6,7 @@ import sobre from './../images/sobre.png';
 function page() {
 
   return (
-    <Box sx={{minHeight:'60vh'}}>
+    <Box id='sobre' sx={{minHeight:'60vh'}}>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
         <Typography color='yellow'>
@@ -17,7 +17,7 @@ function page() {
         </Box>
     <Grid sx={{my:'3vh'}} container spacing={2}>
         <Grid item xs={12} md={6}>
-        <Typography id="sobre" sx={{my:'3vh'}} variant='h3'>
+        <Typography sx={{my:'3vh'}} variant='h3'>
         Quem somos?
         </Typography>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus facilisis luctus aliquet. Nunc rutrum augue vitae consectetur maximus. Cras rutrum quam nisi, ut dictum leo accumsan et. In hac habitasse platea dictumst. Nulla aliquam, augue et elementum ultrices, massa ligula aliquam sem, quis imperdiet mauris metus et nulla.
