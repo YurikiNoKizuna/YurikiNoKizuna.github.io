@@ -40,7 +40,7 @@ function App() {
         <Galeria />
         <Feedbacks />
         </Container>
-        <div style={{height:'100vh', color: 'white'}}></div>
+        <div style={{height:'100vh'}}></div>
       </ThemeProvider>
     </div>
   );
