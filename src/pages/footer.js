@@ -1,4 +1,4 @@
-import { Grid, Box, Typography, Divider, IconButton, Stack, Link } from '@mui/material';
+import { Box, Typography, Divider, IconButton, Stack, Link } from '@mui/material';
 import logoJapanese from './../images/logo-japanese.png'
 import logoWhite from './../images/logo-white-crop.png'
 import * as React from 'react';
