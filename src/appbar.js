@@ -25,7 +25,7 @@ function ResponsiveAppBar() {
 
 
   return (
-    <AppBar style={{ backgroundColor: 'rgba(0,0,0,0)', boxShadow:'none'}} position="absolute">
+    <AppBar style={{ backgroundImage:'none', backgroundColor: 'rgba(0,0,0,0)', boxShadow:'none'}} position="absolute">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
