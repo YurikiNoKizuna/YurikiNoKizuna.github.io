@@ -16,7 +16,7 @@ import Footer from './pages/footer'
 
 const theme = createTheme({
   typography: {
-    fontFamily: 'Roboto',
+    fontFamily: 'Titillium Web'
   },
   palette: {
     mode: 'dark',
