@@ -12,11 +12,15 @@ import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
 import Galeria from './pages/galeria'
 import Feedbacks from './pages/feedbacks'
+import Footer from './pages/footer'
 
 const theme = createTheme({
   typography: {
     fontFamily: 'Roboto',
-  }
+  },
+  palette: {
+    mode: 'dark',
+  },
 })
 
 function App() {
@@ -45,6 +49,7 @@ function App() {
         <Feedbacks />
         </Container>
         <div style={{height:'20vh'}}></div>
+        <Footer />
       </ThemeProvider>
     </div>
   );

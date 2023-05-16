@@ -40,7 +40,7 @@ function page() {
     <Grid sx={{my:'3vh'}} container spacing={2}>
         
 
-    <OwlCarousel responsive={{
+    <OwlCarousel style={{width: 'calc(100% + 16px)'}} responsive={{
       0:{
           items:1
       },
