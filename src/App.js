@@ -1,4 +1,4 @@
-import background from './images/background.jpeg';
+import background from './images/background-min.jpeg';
 import logoCenter from './images/logo-center.png';
 import * as React from 'react';
 import { Box, Container, createTheme, ThemeProvider } from '@mui/material';
