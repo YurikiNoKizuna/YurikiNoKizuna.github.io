@@ -7,6 +7,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Demo from './appbar';
+import Video from './pages/video';
 import Sobre from './pages/sobre';
 import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
@@ -42,13 +43,13 @@ function App() {
         </Box>
 
         <Container sx={{ justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
+        <Video />
         <Sobre />
         <Shishimai />
         <Eisa />
         <Galeria />
         <Feedbacks />
         </Container>
-        <div style={{height:'20vh'}}></div>
         <Footer />
       </ThemeProvider>
     </div>
