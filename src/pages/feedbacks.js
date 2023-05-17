@@ -15,7 +15,7 @@ function page() {
         Feedbacks
         </Typography>
         </Box>
-    <Grid sx={{my:'3vh'}} container spacing={2}>
+    <Grid sx={{mt:'3vh', mb:'4vh'}} container spacing={2}>
           <Grid item sx={{ display:'flex', alignItems:'center' }} xs={12} md={6}>
             <Box
               component="img"
@@ -41,9 +41,9 @@ function page() {
         </Grid>
     </Grid>
 
-    <Divider sx={{ mt:'6vh', bgcolor:'grey', display: {md: 'none'} }} />
+    <Divider sx={{ mt:'3vh', bgcolor:'grey', display: {md: 'none'} }} />
 
-    <Grid sx={{my:'3vh'}} container spacing={2}>
+    <Grid sx={{my:'4vh'}} container spacing={2}>
     <Grid sx={{textAlign:'right'}} item xs={12} md={6}>
         <Box sx={{textAlign:'left'}}>
         <Box component="img" sx={{
@@ -70,6 +70,26 @@ function page() {
             />
         </Grid>
     </Grid>
+
+    <Divider sx={{ mt:'3vh', bgcolor:'grey', display: {md: 'none'} }} />
+
+    <Grid sx={{my:'4vh'}} container spacing={2}>
+        <Grid item xs={12}>
+        <Box component="img" sx={{
+                width:'5vh', position:'absolute', zIndex: '-1', opacity: '0.4'
+              }} src={quote} />
+        <Typography sx={{ mx:'2xh', mb:'3vh', fontWeight:'100', textAlign:'center'}} variant='h6'>
+        “Seja quando encontrei o grupo Yuriki em eventos, seja quando recebi o grupo no evento de Piracicaba, 3 palavras os caracterizam: <b>respeito, excelência e carisma</b>! Sempre em contato pra alinhar detalhes, todos os integrantes <b>extremamente educados e solicitos</b> com toda comissão organizadora antes, durante e após o evento! Fora que são um <b>espetáculo</b> a parte! <b>Sem dúvida uma atração que não pode faltar nos festivais</b>."
+        </Typography>
+        <Typography sx={{ mx:'2xh', mb:'1vh'}} variant='h6'>
+        Paula Hirama
+        </Typography>
+        <Typography sx={{ mx:'2xh', mb:'1vh'}} variant='h8'>
+        Organizadora do Evento Sakura Matsuri (Piracicaba)
+        </Typography>
+        </Grid>
+    </Grid>
+
     </Box>
   );
 }
