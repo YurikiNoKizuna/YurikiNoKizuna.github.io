@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.55fb5534.css",
-    "main.js": "/static/js/main.3c98432e.js",
+    "main.js": "/static/js/main.1f28aac3.js",
     "static/js/787.e80efaf6.chunk.js": "/static/js/787.e80efaf6.chunk.js",
     "static/media/0.jpg": "/static/media/0.3d8bdfa317932e30b541.jpg",
     "static/media/a9.JPG": "/static/media/a9.7668226146a0fe5171c5.JPG",
@@ -22,10 +22,10 @@
     "static/media/IMG_7928.jpg": "/static/media/IMG_7928.2759fc773c8a742300ec.jpg",
     "static/media/IMG_8453.jpg": "/static/media/IMG_8453.8641e6f9772ef0a1f0c2.jpg",
     "static/media/IMG_8454.jpg": "/static/media/IMG_8454.c82a67b25aa6d9ea2131.jpg",
+    "static/media/sobre.jpg": "/static/media/sobre.0746a633cbf640bff075.jpg",
     "static/media/background-min.jpeg": "/static/media/background-min.17e27ebeda0a183b0e2e.jpeg",
     "static/media/logo-white.png": "/static/media/logo-white.b0802070ada9a54fe975.png",
     "static/media/eisa.png": "/static/media/eisa.d75bee91d79601ca8d59.png",
-    "static/media/sobre.png": "/static/media/sobre.b3b5e317ca0fe52c9a47.png",
     "static/media/logo-white-crop.png": "/static/media/logo-white-crop.6a5f5fede5a0c75a7d2c.png",
     "static/media/f1.jpg": "/static/media/f1.2bfd8770b8d27cf6dee6.jpg",
     "static/media/shishimai.jpeg": "/static/media/shishimai.ab36bfc408527e4f1a9e.jpeg",
@@ -65,11 +65,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
     "main.55fb5534.css.map": "/static/css/main.55fb5534.css.map",
-    "main.3c98432e.js.map": "/static/js/main.3c98432e.js.map",
+    "main.1f28aac3.js.map": "/static/js/main.1f28aac3.js.map",
     "787.e80efaf6.chunk.js.map": "/static/js/787.e80efaf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55fb5534.css",
-    "static/js/main.3c98432e.js"
+    "static/js/main.1f28aac3.js"
   ]
 }
