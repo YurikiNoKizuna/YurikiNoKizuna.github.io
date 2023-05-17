@@ -28,7 +28,7 @@ function page() {
       <br />
       <Box component="img" sx={{ zIndex:'1', width:'30vh', opacity:'0.1', position: 'absolute', marginTop:'-9vh'}} src={logoWhite} />
       <Box component="img" sx={{ marginTop:'3vh', width:'30vh'}} src={logoJapanese} />
-      <Divider variant='middle' sx={{ my:'5vh', bgcolor:'white', width: '90%'}} />
+      <Divider variant='middle' sx={{ my:'5vh', bgcolor:'white'}} />
       <Typography sx={{paddingBottom:'5vh'}} fontSize={12} color={'white'}>
         © 2023 Todos os direitos reservados
       </Typography>
