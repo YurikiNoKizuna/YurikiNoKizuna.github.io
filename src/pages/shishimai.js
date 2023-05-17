@@ -9,7 +9,7 @@ function page() {
     <Box sx={{minHeight:'60vh'}}>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography color='yellow'>
+        <Typography color='#FFC700'>
         O que é Shishimai?
         </Typography>
         </Box>
@@ -20,7 +20,7 @@ function page() {
         <Box
               component="img"
               sx={{
-                display:'flex', mx: 'auto', maxWidth: '100%'
+                display:'flex', mx: 'auto', maxWidth: '100%', maxHeight:'500px'
               }}
               src={shishimai}
             />
@@ -30,7 +30,8 @@ function page() {
         O que é Shishimai?
         </Typography>
         <Typography variant='h6' fontWeight={100}>
-        A dança do leão, conhecida como Shishimai é a representação do leão mitológico de Okinawa por meio da dança e acredita-se que ao morder a cabeça de alguém, afasta o mal e traz proteção.
+        A poderosa e encantadora dança do leão, conhecida como <b>Shishimai</b> é a representação do <b>leão mitológico de Okinawa</b> por meio da dança.<br />
+        Acredita-se que ao morder a cabeça de alguém, afasta-se o mal e a traz proteção.
         </Typography>
         </Grid>
     </Grid>

@@ -11,7 +11,7 @@ function page() {
     <Box sx={{minHeight:'60vh', color: 'white'}}>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography color='yellow'>
+        <Typography color='#FFC700'>
         Feedbacks
         </Typography>
         </Box>
@@ -30,7 +30,7 @@ function page() {
                 width:'5vh', position:'absolute', zIndex: '-1', opacity: '0.4'
               }} src={quote} />
         <Typography sx={{ mx:'2xh', mb:'3vh', fontWeight:'100'}} variant='h6'>
-        “A participação do grupo Yuriki no Kizuna Eisá Daiko foi extremamente profissional. Nós, da Organização do Festival da Cultura Japonesa de Salvador, só temos a agradecer aos integrantes do grupo pela postura exemplar adotada em cada um dos momentos que envolveu a participação. Sua apresentação abrilhantou o Festival, agradando todo público presente."
+        “A participação do grupo Yuriki no Kizuna Eisá Daiko foi <b>extremamente profissional</b>. Nós, da Organização do Festival da Cultura Japonesa de Salvador, só temos a agradecer aos integrantes do grupo pela <b>postura exemplar</b> adotada em cada um dos momentos que envolveu a participação. Sua apresentação <b>abrilhantou o Festival</b>, agradando todo público presente."
         </Typography>
         <Typography sx={{ mx:'2xh', mb:'1vh'}} variant='h6'>
         Isa Toyota
@@ -51,7 +51,7 @@ function page() {
               }} src={quote} />
         </Box>
         <Typography sx={{ mx:'2xh', mb:'3vh', fontWeight:'100'}} variant='h6'>
-        “A Mostra Japão admira e parabeniza o trabalho do Grupo Yuriki no Kizuna. Sempre fazemos questão de ter os espetáculos deles em nossos eventos realizados, pois eles trazem em suas apresentações de taiko e shishimai, toda a emoção e carisma que queremos passar para o publico que vem prestigiar. Temos orgulho das nossas raízes Okinawa e ficamos muito felizes em ter encontrado um grupo tão dedicado e incrível."
+        “A Mostra Japão <b>admira e parabeniza</b> o trabalho do Grupo Yuriki no Kizuna. Sempre fazemos questão de ter os espetáculos deles em nossos eventos realizados, pois eles trazem em suas apresentações de taiko e shishimai, toda a <b>emoção e carisma</b> que queremos passar para o publico que vem prestigiar. Temos orgulho das nossas raízes Okinawa e <b>ficamos muito felizes em ter encontrado um grupo tão dedicado e incrível.</b>"
         </Typography>
         <Typography sx={{ mx:'2xh', mb:'1vh'}} variant='h6'>
         Roseli Kanashiro

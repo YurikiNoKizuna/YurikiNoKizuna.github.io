@@ -1,20 +1,12 @@
-import { CardMedia, Box, Typography } from '@mui/material';
-import Vertical from './../vertical'
+import { CardMedia, Box } from '@mui/material';
 import * as React from 'react';
 
 function page() {
   return (
-    <Box>
-    <Vertical/>
-    <Box sx={{justifyContent:'center', display: 'flex'
-
-  }}>
-        <Typography color='yellow'>
-        Trailer
-        </Typography>
-        </Box>
+    <Box id='video'>
         <CardMedia
         sx={{
+          mt: '3vh',
           width:'100%',
           height:'70vh',
           border: 'none'
