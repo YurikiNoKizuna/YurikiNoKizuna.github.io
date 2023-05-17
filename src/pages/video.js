@@ -12,7 +12,7 @@ function page() {
           border: 'none'
         }}
   component="iframe"
-  image="https://www.youtube.com/embed/gglXICztlco"
+  image="https://www.youtube.com/embed/gglXICztlco?controls=0"
 />
 
     </Box>
