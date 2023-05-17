@@ -1,5 +1,5 @@
 import background from './images/background-min.jpeg';
-import logoCenter from './images/logo-center.png';
+import logoCenter from './images/logogroup.png';
 import * as React from 'react';
 import { Box, Container, createTheme, ThemeProvider } from '@mui/material';
 import '@fontsource/roboto/300.css';
@@ -14,6 +14,7 @@ import Shishimai from './pages/shishimai';
 import Galeria from './pages/galeria'
 import Feedbacks from './pages/feedbacks'
 import Footer from './pages/footer'
+import './style.scss';
 
 const theme = createTheme({
   typography: {
@@ -41,6 +42,14 @@ function App() {
                 src={logoCenter}
               />
         </Box>
+
+        <div style={{position:'absolute', zIndex:'100', top:'33vh'}} class="container">
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+        </div>
+
+        
 
         <Container sx={{ justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
         <Video />
