@@ -2,6 +2,7 @@ import background from './images/background-min.jpeg';
 import logoCenter from './images/logogroup.png';
 import * as React from 'react';
 import { Box, Container, createTheme, ThemeProvider } from '@mui/material';
+import { Link } from 'react-scroll'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -26,6 +27,14 @@ const theme = createTheme({
 })
 
 function App() {
+
+  const [setAnchorElNav] = React.useState(null);
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+
   return (
     <div style={{ backgroundColor:'black', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', width:'100%', height:'100vh' }}>
       <ThemeProvider theme={theme}>
@@ -43,11 +52,13 @@ function App() {
               />
         </Box>
 
-        <div style={{position:'absolute', zIndex:'100', top:'33vh'}} class="container">
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-        </div>
+        <Link to="video" smooth={true} duration={500} onClick={handleCloseNavMenu}>
+          <div style={{position:'absolute', zIndex:'100', top:'33vh'}} class="container">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+          </div>
+        </Link>
 
         
 

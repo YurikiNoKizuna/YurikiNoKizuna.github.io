@@ -33,7 +33,7 @@ function page() {
     <Box id='galeria'>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
-        <Typography color='yellow'>
+        <Typography color='#FFC700'>
         Galeria
         </Typography>
         </Box>
