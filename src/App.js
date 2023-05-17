@@ -28,13 +28,6 @@ const theme = createTheme({
 
 function App() {
 
-  const [setAnchorElNav] = React.useState(null);
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-
   return (
     <div style={{ backgroundColor:'black', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover', width:'100%', height:'100vh' }}>
       <ThemeProvider theme={theme}>
@@ -52,7 +45,7 @@ function App() {
               />
         </Box>
 
-        <Link to="video" smooth={true} duration={500} onClick={handleCloseNavMenu}>
+        <Link to="video" smooth={true} duration={500} >
           <div style={{position:'absolute', zIndex:'100', top:'33vh'}} class="container">
             <div class="chevron"></div>
             <div class="chevron"></div>
