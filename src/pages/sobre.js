@@ -7,25 +7,23 @@ import sobre from './../images/sobre.jpg';
 function page() {
 
   return (
-    <Box id='sobre' sx={{minHeight:'60vh'}}>
+    <Box id='sobre' sx={{minHeight:'100vh'}}>
     <Vertical/>
-    <Box sx={{textAlign:'center'}}>
-    </Box>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
         <Typography color='#FFC700'>
         友力の絆エイサー太鼓
         </Typography>
     </Box>
     
-    <Grid sx={{my:'3vh'}} container spacing={2}>
+    <Grid sx={{my:'3vh'}} container columnSpacing={10}>
         <Grid item xs={12} md={6}>
         <Typography sx={{my:'3vh'}} variant='h3'>
         Quem somos?
         </Typography>
         <Box component="img" sx={{ zIndex:'-1', width:{xs:'70%', md:'40%', lg:'30%'}, opacity:'0.1', position:'absolute', marginLeft:'auto', marginRight:'auto', left: 0, right: 0, textAlign:'center', marginTop:'-2vh'}} src={logoWhite} />
-        <Typography variant='h6' fontWeight={100}>
-        O grupo <b>Yuriki no Kizuna Eisá Daiko (Grupo de Eisá Taiko
-Laços de Amizade)</b> foi fundado por Toshiyuki Yamauchi
+        <Typography variant='h6' fontWeight={300}>
+        O grupo <b>Yuriki no Kizuna Eisá Daiko</b> (Grupo de Eisá Taiko
+Laços de Amizade) foi fundado por Toshiyuki Yamauchi
 em 2022, na cidade de São Paulo e conta com 40
 membros.
 O grupo surgiu através da união entre jovens
