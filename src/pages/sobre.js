@@ -7,7 +7,7 @@ import sobre from './../images/sobre.jpg';
 function page() {
 
   return (
-    <Box id='sobre' sx={{minHeight:'100vh'}}>
+    <Box id='sobre'>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
         <Typography color='#FFC700'>

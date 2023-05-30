@@ -14,6 +14,7 @@ import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
 import Galeria from './pages/galeria'
 import Feedbacks from './pages/feedbacks'
+import Faq from './pages/faq'
 import Footer from './pages/footer'
 import './style.scss';
 
@@ -23,6 +24,41 @@ const theme = createTheme({
   },
   palette: {
     mode: 'dark',
+  },
+  components: {
+    MuiAccordion: {
+      styleOverrides: {
+        root: {
+          backgroundImage: 'radial-gradient(circle, white, rgba(187, 0, 255, 0.15))',
+          backgroundColor: 'white',
+          margin: '18px 0px',
+          color: '#020000',
+          borderRadius: '16px',
+          '&:first-of-type': {
+            borderRadius: '16px'
+          },
+          '&:last-of-type': {
+            borderRadius: '16px'
+          },
+          '&:before': {
+            display: 'none',
+          }
+        },
+        rounded: {
+          padding: '0px 18px'
+        }
+      },
+    },
+    MuiAccordionSummary: {
+      styleOverrides: {
+        content: {
+          margin: '18px 0px'
+        },
+        expandIconWrapper: {
+          color: '#020000'
+        },
+      },
+    }
   },
 })
 
@@ -63,6 +99,7 @@ function App() {
         <Galeria />
         <Feedbacks />
         </Container>
+        <Faq />
         <Footer />
       </ThemeProvider>
     </div>
