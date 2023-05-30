@@ -18,7 +18,7 @@ export default function VerticalDividerText() {
       <Grid item xs>
          
       </Grid>
-      <Divider sx={{ bgcolor: "#FFC700", height:'6vh' }} orientation="vertical" flexItem />
+      <Divider sx={{ bgcolor: "#FFC700", height:'5vh' }} orientation="vertical" flexItem />
       <Grid item xs>
          
       </Grid>
