@@ -8,7 +8,7 @@ import quote from './../images/quote.png';
 function page() {
 
   return (
-    <Box sx={{minHeight:'60vh', color: 'white', fontWeight:'300'}}>
+    <Box id='feedbacks' sx={{minHeight:'60vh', color: 'white', fontWeight:'300'}}>
     <Vertical/>
     <Box sx={{justifyContent:'center', display: 'flex'}}>
         <Typography color='#FFC700'>

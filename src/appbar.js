@@ -95,14 +95,14 @@ function ResponsiveAppBar() {
               }}
               src={logoWhite}
             />
+            <Link to="feedbacks" smooth={true} duration={500} onClick={handleCloseNavMenu}>
+              <Button key={'Feedbacks'} sx={{ my: 2, color: 'white', display: 'block' }}>
+                {'Feedbacks'}
+              </Button>
+            </Link>
             <Link to="contato" smooth={true} duration={500} onClick={handleCloseNavMenu}>
               <Button key={'Contato'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
                 {'Contato'}
-              </Button>
-            </Link>
-            <Link to="faq" smooth={true} duration={500} onClick={handleCloseNavMenu}>
-              <Button key={'FAQ'} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
-                {'FAQ'}
               </Button>
             </Link>
           </Box>
