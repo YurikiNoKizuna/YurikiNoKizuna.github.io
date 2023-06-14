@@ -14,7 +14,7 @@ import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
 import Galeria from './pages/galeria'
 import Feedbacks from './pages/feedbacks'
-import Faq from './pages/faq'
+import Faq from './pages/contato'
 import Footer from './pages/footer'
 import './style.scss';
 
@@ -24,6 +24,9 @@ const theme = createTheme({
   },
   palette: {
     mode: 'dark',
+    yellowy: {
+      main: '#FFC700',
+    },
   },
   components: {
     MuiAccordion: {
