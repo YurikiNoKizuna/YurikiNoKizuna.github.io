@@ -6,6 +6,21 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import $ from 'jquery';
+
+function isiPhone(){
+  return (
+      (navigator.platform.indexOf("iPhone") !== -1) ||
+      (navigator.platform.indexOf("iPod") !== -1) ||
+      (navigator.platform.indexOf("iPad") !== -1)
+  );
+}
+
+$(window).scroll(function() {
+  if (isiPhone()) {
+    $('#contato').css('background-attachment', 'scroll');
+  }
+});
 
 function page() {
 
