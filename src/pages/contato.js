@@ -10,7 +10,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function page() {
 
   return (
-    <Box id='contato' sx={{backgroundRepeat: 'no-repeat', backgroundPosition: 'center top', backgroundSize: 'cover', width:'100%', display: 'grid', backgroundImage: `url(${faqBg})`, minHeight:'5vh', color: 'white', fontWeight:'300', paddingBottom:'10vh'}}>
+    <Box id='contato' sx={{backgroundRepeat: 'no-repeat', backgroundPosition: 'center top', backgroundAttachment:'fixed', backgroundSize: 'cover', width:'100%', display: 'grid', backgroundImage: `url(${faqBg})`, minHeight:'5vh', color: 'white', fontWeight:'300', paddingBottom:'10vh'}}>
       <Container sx={{ gridArea: '1 / 1 / 2 / 2', justifyContent:'center', color: 'white', zIndex: 1, backgroundColor: "rgba(0,0,0,0.0)"}} >
       <Vertical/>
       <Box sx={{justifyContent:'center', display: 'flex', marginBottom: '5vh'}}>
@@ -21,8 +21,8 @@ function page() {
 
       <Grid container spacing={5}>
         <Grid item xs={12} sm={6} md={3}>
-          <Box sx={{backgroundColor: 'rgb(5,5,5)', border:1, borderColor:'rgb(15,15,15)', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
-            <Typography variant='h6'>
+          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
+            <Typography fontWeight={600} variant='h6'>
               WHATSAPP
             </Typography>
             <Typography color='#43b561' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
@@ -34,12 +34,12 @@ function page() {
             <Typography>
               Fale conosco por mensagem de texto.
             </Typography>
-            <Button color='yellowy' sx={{marginTop:'3vh'}} target="_blank" href='https://wa.me/5511916132999' variant="outlined">Enviar</Button>
+            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'}, fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='https://wa.me/5511916132999' variant="outlined">Enviar</Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Box sx={{backgroundColor: 'rgb(5,5,5)', border:1, borderColor:'rgb(15,15,15)', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
-            <Typography variant='h6'>
+          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
+            <Typography fontWeight={600} variant='h6'>
               E-MAIL
             </Typography>
             <Typography color='#c74c4c' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
@@ -51,12 +51,12 @@ function page() {
             <Typography>
               Contate nosso grupo via um e-mail.
             </Typography>
-            <Button color='yellowy' sx={{marginTop:'3vh'}} target="_blank" href='mailto:yuriki.kizuna@gmail.com' variant="outlined">ENVIAR</Button>
+            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='mailto:yuriki.kizuna@gmail.com' variant="outlined">ENVIAR</Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Box sx={{backgroundColor: 'rgb(5,5,5)', border:1, borderColor:'rgb(15,15,15)', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
-            <Typography variant='h6'>
+          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
+            <Typography fontWeight={600} variant='h6'>
               INSTAGRAM
             </Typography>
             <Typography color='#81418c' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
@@ -68,12 +68,12 @@ function page() {
             <Typography>
               Veja as atualizações do nosso grupo.
             </Typography>
-            <Button color='yellowy' sx={{marginTop:'3vh'}} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' variant="outlined">Acessar</Button>
+            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' variant="outlined">Acessar</Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Box sx={{backgroundColor: 'rgb(5,5,5)', border:1, borderColor:'rgb(15,15,15)', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
-            <Typography variant='h6'>
+          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
+            <Typography fontWeight={600} variant='h6'>
               YOUTUBE
             </Typography>
             <Typography color='#c74c4c' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
@@ -85,7 +85,7 @@ function page() {
             <Typography>
               Veja o conteúdo em vídeo do nosso grupo.
             </Typography>
-            <Button color='yellowy' sx={{marginTop:'3vh'}} target="_blank" href='https://www.youtube.com/@yurikinokizunaeisadaiko9026' variant="outlined">Acessar</Button>
+            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='https://www.youtube.com/@yurikinokizunaeisadaiko9026' variant="outlined">Acessar</Button>
           </Box>
         </Grid>
       </Grid>
