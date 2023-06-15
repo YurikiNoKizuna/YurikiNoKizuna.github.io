@@ -1,23 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.55fb5534.css",
-    "main.js": "/static/js/main.38a98c21.js",
+    "main.js": "/static/js/main.9d8fc70e.js",
     "static/js/787.e80efaf6.chunk.js": "/static/js/787.e80efaf6.chunk.js",
     "static/media/0.jpg": "/static/media/0.3d8bdfa317932e30b541.jpg",
     "static/media/a9.JPG": "/static/media/a9.7668226146a0fe5171c5.JPG",
     "static/media/a8.JPG": "/static/media/a8.337b11ab732b9f2fa2d3.JPG",
-    "static/media/DSCN6264.JPG": "/static/media/DSCN6264.1074408abd63fffae65f.JPG",
-    "static/media/DSCN6344.JPG": "/static/media/DSCN6344.fbe12b68099ef60993a5.JPG",
-    "static/media/DSCN6286.JPG": "/static/media/DSCN6286.d125807e2bece11904a1.JPG",
-    "static/media/DSCN6310.JPG": "/static/media/DSCN6310.cb4dfdb0cd71eb6d60f6.JPG",
-    "static/media/DSCN6337.JPG": "/static/media/DSCN6337.fd33a573bc1c5dabc26e.JPG",
-    "static/media/DSCN6288.JPG": "/static/media/DSCN6288.02d97755eb2677fdd103.JPG",
-    "static/media/DSCN6373.JPG": "/static/media/DSCN6373.ed489df40d0c6f0217e5.JPG",
-    "static/media/DSCN6298.JPG": "/static/media/DSCN6298.37ae80eec6fcd675527e.JPG",
-    "static/media/DSCN6479.JPG": "/static/media/DSCN6479.5c0822d3b5eccc7540b3.JPG",
-    "static/media/DSCN6273.JPG": "/static/media/DSCN6273.903926e2d3c9a9d07d4b.JPG",
-    "static/media/DSCN6245.JPG": "/static/media/DSCN6245.8916765e347b0d3fb8ac.JPG",
-    "static/media/DSCN6343.JPG": "/static/media/DSCN6343.00eb935c514df3686bf3.JPG",
     "static/media/IMG_6488.jpg": "/static/media/IMG_6488.0f73e3537c3b6464ef31.jpg",
     "static/media/IMG_6479.jpg": "/static/media/IMG_6479.456b643ec5901b50a51c.jpg",
     "static/media/IMG_7921.jpg": "/static/media/IMG_7921.a0fbe5889c7bff0cd831.jpg",
@@ -49,8 +37,8 @@
     "static/media/IMG_6628.JPG": "/static/media/IMG_6628.e98f88e4d56bfdc42edf.JPG",
     "static/media/IMG_6996.JPG": "/static/media/IMG_6996.5ea490ef2eea9c9dbbd7.JPG",
     "static/media/background-min.jpeg": "/static/media/background-min.17e27ebeda0a183b0e2e.jpeg",
+    "static/media/faq-bg.png": "/static/media/faq-bg.97123d630f27fd10f1f2.png",
     "static/media/IMG_6727.JPG": "/static/media/IMG_6727.0e1a98e919d1f7d5395a.JPG",
-    "static/media/faq-bg.png": "/static/media/faq-bg.6c47720adb0c733c5d2f.png",
     "static/media/logo-white.png": "/static/media/logo-white.b0802070ada9a54fe975.png",
     "static/media/eisa.png": "/static/media/eisa.d75bee91d79601ca8d59.png",
     "static/media/shishimai.jpg": "/static/media/shishimai.39e1b67b2cc65e93ddcd.jpg",
@@ -92,11 +80,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
     "main.55fb5534.css.map": "/static/css/main.55fb5534.css.map",
-    "main.38a98c21.js.map": "/static/js/main.38a98c21.js.map",
+    "main.9d8fc70e.js.map": "/static/js/main.9d8fc70e.js.map",
     "787.e80efaf6.chunk.js.map": "/static/js/787.e80efaf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55fb5534.css",
-    "static/js/main.38a98c21.js"
+    "static/js/main.9d8fc70e.js"
   ]
 }
