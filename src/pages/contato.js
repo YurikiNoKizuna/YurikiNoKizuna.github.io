@@ -19,6 +19,7 @@ function isiPhone(){
 $(window).scroll(function() {
   if (isiPhone()) {
     $('#contato').css('background-attachment', 'scroll');
+    $('#contato').css('background-position', 'right top');
   }
 });
 
