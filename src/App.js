@@ -12,7 +12,7 @@ import Video from './pages/video';
 import Sobre from './pages/sobre';
 import Eisa from './pages/eisa';
 import Shishimai from './pages/shishimai';
-import Galeria from './pages/galeria'
+import Galeria2 from './pages/galeria2'
 import Feedbacks from './pages/feedbacks'
 import Faq from './pages/contato'
 import Footer from './pages/footer'
@@ -99,7 +99,7 @@ function App() {
         <Sobre />
         <Shishimai />
         <Eisa />
-        <Galeria />
+        <Galeria2 />
         <Feedbacks />
         </Container>
         <Faq />
