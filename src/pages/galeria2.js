@@ -1,6 +1,7 @@
 import { Grid, Box, Typography, IconButton } from '@mui/material';
 import Vertical from './../vertical'
 import * as React from 'react';
+import { useEffect } from 'react';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './galeria2.css';
@@ -39,11 +40,26 @@ function rightScroll() {
   const wsize = $("#galeria").width()
   right.scrollBy(wsize, 0);
 }
+function restartScroll() {
+  const right = document.querySelector(".grid-gallery");
+  right.scrollTo(0,0)
+}
 
 
 const images = shuffle(importAll(require.context('./../images/galeria/', false, /\.(png|jpe?g|svg|JPG)$/)));
 
-function page() {
+function Page() {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const right = document.querySelector(".grid-gallery");
+      if ( Math.abs(right.scrollLeft) === right.scrollWidth - right.clientWidth) {
+        restartScroll();
+      } else {
+        rightScroll();
+      }
+    }, 5000);
+    return () => clearInterval(interval);
+});
   return (
     <Box sx={{padding:'50px 0px'}} id='galeria'>
     <Vertical/>
@@ -78,4 +94,4 @@ function page() {
     </Box>
   );
 }
-export default page;
+export default Page;
