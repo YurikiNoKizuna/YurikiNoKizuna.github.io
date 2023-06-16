@@ -13,7 +13,7 @@ function page() {
         O que é Eisá?
         </Typography>
         </Box>
-    <Grid sx={{my:'3vh'}} container columnSpacing={10}>
+    <Grid sx={{my:'3vh'}} container rowSpacing={4} columnSpacing={10}>
         <Grid item xs={12} md={6}>
         <Typography id="sobre" sx={{my:'3vh'}} variant='h3'>
         O que é Eisá?
@@ -31,11 +31,11 @@ function page() {
         com o público</b>.
         </Typography>
         </Grid>
-        <Grid item sx={{ display:'flex', alignItems:'right' }} xs={12} md={6}>
+        <Grid item sx={{ display:'flex', alignItems:'center' }} xs={12} md={6}>
             <Box
               component="img"
               sx={{
-                display:'flex', marginRight: '0', maxWidth: '100%', float:'right'
+                marginRight: '0', maxWidth: '100%', float:'right', margin: '0 auto'
               }}
               src={eisa}
             />

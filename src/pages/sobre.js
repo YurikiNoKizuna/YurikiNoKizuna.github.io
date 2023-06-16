@@ -15,7 +15,7 @@ function page() {
         </Typography>
     </Box>
     
-    <Grid sx={{my:'3vh'}} container columnSpacing={10}>
+    <Grid sx={{my:'3vh'}} container rowSpacing={4} columnSpacing={10}>
         <Grid item xs={12} md={6}>
         <Typography sx={{my:'3vh'}} variant='h3'>
         Quem somos?
