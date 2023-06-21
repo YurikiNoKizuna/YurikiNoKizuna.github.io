@@ -47,16 +47,22 @@ function restartScroll() {
 
 
 const images = shuffle(importAll(require.context('./../images/galeria/', false, /\.(png|jpe?g|svg|JPG)$/)));
+var scrollGallery = true
+
+function disableScroll() {scrollGallery = false}
+function enableScroll() {scrollGallery = true}
 
 function Page() {
   useEffect(() => {
     const interval = setInterval(() => {
+      if (scrollGallery) {
       const right = document.querySelector(".grid-gallery");
       if ( Math.abs(right.scrollLeft) === right.scrollWidth - right.clientWidth) {
         restartScroll();
       } else {
         rightScroll();
       }
+    }
     }, 5000);
     return () => clearInterval(interval);
 });
@@ -68,28 +74,29 @@ function Page() {
         Galeria
         </Typography>
         </Box>
-    <Grid sx={{my:'3vh'}} container spacing={2}>
-        
+    <Box onMouseEnter={disableScroll} onMouseLeave={enableScroll} sx={{ alignContent:'center', textAlign:'center'}}>
+      <Grid sx={{my:'3vh'}} container spacing={2}>
+          
 
-    <div class ="grid-container">
-      <div class="grid-gallery">
-        {images.map((image) => (
-                <div class="grid-item">
-                <a href={image} data-lightbox="gridImage">
-                  <img alt="" src={image} />
-                </a>
-              </div>
-          ))}
-      </div>
-    </div>
-    </Grid>
-    <Box sx={{ alignContent:'center', textAlign:'center'}}>
-    <IconButton onClick={leftScroll} sx = {{ overflow:'hidden', fontSize:'1.5em', color: 'white', zIndex:500}}>
-      <ArrowBackIosNewIcon fontSize='inherit' />
-    </IconButton>
-    <IconButton onClick={rightScroll} sx = {{ fontSize:'1.5em', color: 'white', zIndex:500}}>
-      <ArrowForwardIosIcon fontSize='inherit' />
-    </IconButton>
+        <div class ="grid-container">
+          <div class="grid-gallery">
+            {images.map((image) => (
+                    <div class="grid-item">
+                    <a href={image} data-lightbox="gridImage">
+                      <img alt="" src={image} />
+                    </a>
+                  </div>
+              ))}
+          </div>
+        </div>
+      </Grid>
+    
+      <IconButton onClick={leftScroll} sx = {{ overflow:'hidden', fontSize:'1.5em', color: 'white', zIndex:500}}>
+        <ArrowBackIosNewIcon fontSize='inherit' />
+      </IconButton>
+      <IconButton onClick={rightScroll} sx = {{ fontSize:'1.5em', color: 'white', zIndex:500}}>
+        <ArrowForwardIosIcon fontSize='inherit' />
+      </IconButton>
     </Box>
     </Box>
   );
