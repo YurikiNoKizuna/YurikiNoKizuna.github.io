@@ -1,5 +1,6 @@
 import background from './images/background-min.jpeg';
 import logoCenter from './images/logogroup.png';
+import logosimples from './images/logo-center.png';
 import * as React from 'react';
 import { Box, Container, createTheme, ThemeProvider } from '@mui/material';
 import { Link } from 'react-scroll'
@@ -75,13 +76,8 @@ function App() {
         sx={{
           display: 'flex', my:'auto', height:'100vh', justifyContent:'center', alignItems:'center'
         }}>
-          <Box
-                component="img"
-                sx={{
-                  display: 'flex', mx: 'auto', maxWidth: '100%'
-                }}
-                src={logoCenter}
-              />
+          <Box component="img" sx={{ mx: 'auto', maxWidth: '100%', display: {xs: 'none', sm: 'block'} }} src={logosimples} />
+          <Box component="img" sx={{ mx: 'auto', maxWidth: '100%', display: {xs: 'block', sm: 'none'} }} src={logoCenter} />
         </Box>
 
         <Link to="video" smooth={true} duration={500} >

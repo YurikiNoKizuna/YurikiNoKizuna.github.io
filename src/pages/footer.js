@@ -12,16 +12,16 @@ function page() {
   return (
     <Box sx={{ zIndex:'-100', textAlign:'center', bgcolor: '#28072E', fontWeight:'100'}}>
       <Stack sx={{ zIndex:'100', paddingTop:'7vh', color:'white',justifyContent:'center', display:'flex'}} direction="row" alignItems="center" spacing={5}>
-        <IconButton component={Link} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
+        <IconButton disableRipple component={Link} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
           <InstagramIcon/>
         </IconButton>
-        <IconButton component={Link} target="_blank" href='https://www.youtube.com/@yurikinokizunaeisadaiko9026' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
+        <IconButton disableRipple component={Link} target="_blank" href='https://www.youtube.com/@yurikinokizunaeisadaiko9026' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
           <YouTubeIcon />
         </IconButton>
-        <IconButton component={Link} target="_blank" href='https://www.flickr.com/photos/195971224@N04/albums' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
+        <IconButton disableRipple component={Link} target="_blank" href='https://www.flickr.com/photos/195971224@N04/albums' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
           <PhotoLibraryIcon />
         </IconButton>
-        <IconButton component={Link} target="_blank" href='https://wa.me/5511916132999' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
+        <IconButton disableRipple component={Link} target="_blank" href='https://wa.me/5511916132999' size='small' sx={{ zIndex:'100', bgcolor:'white', color:'#28072E'}}>
           <WhatsAppIcon />
         </IconButton>
       </Stack>
