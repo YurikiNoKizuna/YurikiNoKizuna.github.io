@@ -36,6 +36,23 @@ function page() {
       </Box>
 
       <Grid container spacing={5}>
+      <Grid item xs={12} sm={6} md={3}>
+          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
+            <Typography fontWeight={600} variant='h6'>
+              INSTAGRAM
+            </Typography>
+            <Typography color='#81418c' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
+            <InstagramIcon fontSize='inherit'/>
+            </Typography>
+            <Typography fontWeight={300}>
+            @yuriki.kizuna
+            </Typography><br/>
+            <Typography>
+              Veja as atualizações do nosso grupo.
+            </Typography>
+            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' variant="outlined">Acessar</Button>
+          </Box>
+        </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
             <Typography fontWeight={600} variant='h6'>
@@ -68,23 +85,6 @@ function page() {
               Contate nosso grupo via um e-mail.
             </Typography>
             <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='mailto:yuriki.kizuna@gmail.com' variant="outlined">ENVIAR</Button>
-          </Box>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Box sx={{background: 'radial-gradient(87.87% 205.91% at 88.07% 77.6%, rgba(189, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(57.4% 153.23% at 1.61% 100%, rgba(231, 86, 255, 0.2) 0%, rgba(253, 1, 1, 0) 100%), #373737', borderRadius:'10px', textAlign:'center', padding: '3vh'}}>
-            <Typography fontWeight={600} variant='h6'>
-              INSTAGRAM
-            </Typography>
-            <Typography color='#81418c' variant='h2' sx={{margin:'3vh', marginBottom:'1vh'}}>
-            <InstagramIcon fontSize='inherit'/>
-            </Typography>
-            <Typography fontWeight={300}>
-            @yuriki.kizuna
-            </Typography><br/>
-            <Typography>
-              Veja as atualizações do nosso grupo.
-            </Typography>
-            <Button color='yellowy' sx={{':hover':{fontWeight:'600', borderWidth:'2px'},  fontWeight:'600', borderWidth:'2px', marginTop:'3vh'}} target="_blank" href='https://www.instagram.com/yuriki.kizuna/' variant="outlined">Acessar</Button>
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
