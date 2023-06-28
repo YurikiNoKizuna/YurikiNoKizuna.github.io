@@ -14,7 +14,7 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           
-          <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', sm: 'flex' }, height: '70px', padding: '3vh', paddingLeft:'65px' }}>
+          <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', sm: 'flex' }, height: '70px', padding: '3vh', paddingLeft:'64px' }}>
             <Link to="sobre" smooth={true} duration={500} >
               <Button key={'Sobre'} sx={{ textTransform:'none', fontSize:'1.5rem', my: 2, color: 'white', display: 'block' }}>
                 {'Sobre'}
