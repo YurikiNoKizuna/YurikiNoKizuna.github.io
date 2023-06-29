@@ -14,14 +14,14 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           
-          <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', sm: 'flex' }, height: '70px', padding: '3vh', paddingLeft:'64px' }}>
+          <Box sx={{ justifyContent: 'center', flexGrow: 1, display: { xs: 'none', sm: 'flex' }, height: '70px', padding: '3vh' }}>
             <Link to="sobre" smooth={true} duration={500} >
-              <Button key={'Sobre'} sx={{ textTransform:'none', fontSize:'1.5rem', my: 2, color: 'white', display: 'block' }}>
+              <Button key={'Sobre'} sx={{ textTransform:'none', fontSize:'1.5rem', my: 2, color: 'white', display: 'block', width:'103.6px' }}>
                 {'Sobre'}
               </Button>
             </Link>
             <Link to="galeria" smooth={true} duration={500} >
-              <Button key={'Galeria'}  sx={{ textTransform:'none', fontSize:'1.5rem', my: 2, color: 'white', display: 'block' }}>
+              <Button key={'Galeria'}  sx={{ textTransform:'none', fontSize:'1.5rem', my: 2, color: 'white', display: 'block', width:'115.16px' }}>
                 {'Galeria'}
               </Button>
             </Link>
